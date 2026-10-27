@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ND30 Tools – Cài đặt</title>
+<style>
+  :root { --bg: #f6f7f9; --card: #fff; --text: #1d2330; --muted: #5b6475; --accent: #1f5fbf; --line: #dde2ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14171c; --card: #1d2128; --text: #e6e9ef; --muted: #a0a8b6; --accent: #6ea4ff; --line: #303642; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 "Segoe UI", Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 0 0 12px; }
+  .muted { color: var(--muted); }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 8px; font-weight: 600; margin: 12px 0 4px; }
+  ol, ul { padding-left: 22px; margin: 0; }
+  li { margin-bottom: 6px; }
+  code { background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>ND30 Tools</h1>
+    <p class="muted">Add-in cho Microsoft Word: định dạng văn bản hành chính theo Nghị định 30/2020/NĐ-CP và sửa lỗi nhanh.</p>
+    <a class="btn" href="setup.exe">Tải bộ cài (setup.exe)</a>
+    <p class="muted">Phiên bản 1.0.0.1 · cập nhật 27/10/2026</p>
+  </div>
+
+  <div class="card">
+    <h2>Cài đặt (một lần)</h2>
+    <ol>
+      <li>Đóng Word.</li>
+      <li>Tải <code>setup.exe</code> ở trên và chạy. Nếu Windows báo “Windows protected your PC”, bấm <b>More info</b> → <b>Run anyway</b>.</li>
+      <li>Hộp thoại báo “nhà phát hành không xác minh được” → bấm <b>Install</b> (Cài đặt).</li>
+      <li>Mở Word, trên thanh Ribbon có tab <b>Nghị định 30</b>.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Cập nhật</h2>
+    <p>Không cần cài lại. Mỗi lần mở Word, công cụ tự kiểm tra và nhận bản mới (cần có mạng).</p>
+  </div>
+
+  <div class="card">
+    <h2>Yêu cầu</h2>
+    <ul>
+      <li>Windows 10/11, Word bản cài trên máy (Microsoft 365, 2016, 2019, 2021, 2024).</li>
+      <li>Không dùng được trên Word Online, Word cho Mac hay điện thoại.</li>
+      <li>Gỡ cài đặt: <b>Settings → Apps → Installed apps → ND30 Tools → Uninstall</b>.</li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>
